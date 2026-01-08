@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar ul {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: darkkhaki;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+.navbar img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+ul li a {
+    margin-left: 20px;
+}
+
+.container {
+    text-align: center;
+    background-image: url("image\ back.webp");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 0px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(131, 184, 209);
+    margin-top: 20px;
+
+}
+
+/* services ko design kar rhe ho  */
+
+.head {
+
+    font-weight: 800px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.containeer {
+   
+    height: 350px;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 20px;
+    display: flex;
+   justify-content:space-evenly;
+
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(22, 22, 21);
+    margin-right: 30px;
+    padding-left: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgb(180, 240, 240);
+
+
+}
+
+.card2 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(15, 15, 15);
+    margin-right: 30px;
+    padding-left: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgb(180, 240, 240);
+
+}
+
+.card3 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(22, 22, 22);
+    padding-left: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: rgb(180, 240, 240);
+}
+
+.pic {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+
+
+.burger{
+   text-align: center;
+}
+
+.pizza{
+    text-align: center; 
+}
+
+.roll{
+    text-align: center;
+}
+
+.para{
+    text-align: center;
+}
+
+.para1{
+    text-align: center;
+}
+
+.para2{
+    text-align: center;
+}
+
+.logo-class{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 120PX;
+}
+
+
+.containerrr {
+    display: flex;
+    align-items: flex-start;
+    background-color: bisque;
+    margin-top: 50px;
+    border: 2px solid red;
+
+  }
+  
+  .image-container {
+    margin-top: 30px; 
+    margin-left: 50px;
+    margin-bottom: 30px ;
+
+  }
+
+  .image{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+  }
+  
+  .text-button-container {
+    margin-left: 20px;
+  }
+  
+  .text {
+    margin-top: 30px; 
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .button {
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  
+  .container-head{
+margin-top: 30px;
+margin-left: 20px;
+margin-right: 50px;
+  }
